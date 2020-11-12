@@ -37,7 +37,7 @@ Save these with a notepad
 Connect to your Linux VPS as root
 
 Copy and Paste the command below
-bash <(curl -Ls https://raw.githubusercontent.com/sburns1369/GenesisX_MN_Script/master/xgs.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX_MN_Script/master/xgs.sh)
 
 
 
