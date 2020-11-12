@@ -9,7 +9,7 @@ Shameless Referral link for VPS = https://www.vultr.com/?ref=7846384 = All insta
 *********  Quick Start - Experienced Users ***************
 Copy and paste into your VPS:
 
-bash <(curl -Ls https://raw.githubusercontent.com/sburns1369/GenesisX_MN_Script/master/xgs.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX_MN_Script/master/xgs.sh)
 
 *********  {Incomplete Directions - Need to update} - Experienced Users ***************
 
