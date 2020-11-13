@@ -917,6 +917,7 @@ esac
   clear
   disp_masternode_Status
   disp_masternode_Chain
+  disp_masternode_Info
   display_MN_Status
   }
   read_display_MN_Status(){
