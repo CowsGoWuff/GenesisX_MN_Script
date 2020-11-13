@@ -963,6 +963,11 @@ esac
   echo -e ${GREEN}"Reporting current Block on Chain" ${YELLOW}
   ${COINDAEMONCLI} -datadir=${COINHOME}${nodeunit}/${COINCORE} getblockcount
   echo -e ${CLEAR}
+  }
+  disp_masternode_Chain(){
+  echo -e ${GREEN}"Wallet Information" ${YELLOW}
+  ${COINDAEMONCLI} -datadir=${COINHOME}${nodeunit}/${COINCORE} getwalletinfo
+  echo -e ${CLEAR}
   pause
   }
   # Test Function for Find masterNode
@@ -1370,7 +1375,7 @@ Function_Glances(){
   echo -e "${YELLOW}the other masternodes.  This will prevent all masternodes${CLEAR}"
   echo -e "${YELLOW}from downloading the block chain individually; taking up${CLEAR}"
   echo -e "${YELLOW}more time and resources.  Current Block count will be displayed below.${CLEAR}"
-  ${COINDAEMONCLI} -datadir=/home/${COINl}${nodeunit}/${COINCORE} getblockcount
+  ${COINDAEMONCLI} -datadir=/home/${COINl}${nodeunit}/${COINCORE} 
   sleep 5
   #node 1 sync check
   #select proper isblocked sync'd syntax
