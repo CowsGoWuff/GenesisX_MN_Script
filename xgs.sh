@@ -964,7 +964,7 @@ esac
   ${COINDAEMONCLI} -datadir=${COINHOME}${nodeunit}/${COINCORE} getblockcount
   echo -e ${CLEAR}
   }
-  disp_masternode_Chain(){
+  disp_masternode_Info(){
   echo -e ${GREEN}"Wallet Information" ${YELLOW}
   ${COINDAEMONCLI} -datadir=${COINHOME}${nodeunit}/${COINCORE} getwalletinfo
   echo -e ${CLEAR}
