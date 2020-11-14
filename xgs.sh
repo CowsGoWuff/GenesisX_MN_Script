@@ -41,7 +41,7 @@ COINDAEMONCLI=genesisx-cli
 COINCORE=.genesisx
 COINCONFIG=genesisx.conf
 COINHOME=/home/genesisx
-#wallet downnload and extractions commands
+#wallet download and extractions commands
 DOWNLOADCOINFILES=http://genesisx.network/genesisx-linux.zip
 COINFILES=genesisx-linux.zip
 DECOMPRESS='unzip'
